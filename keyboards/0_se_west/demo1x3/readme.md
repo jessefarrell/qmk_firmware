@@ -1,12 +1,12 @@
 # 0_se_west/demo1x3
 
-![0_se_west/demo1x3](imgur.com image replace me!)
+![0_se_west/demo1x3](https://i.imgur.com/I0TkQ0Rl.jpg)
 
-*A short description of the keyboard/project*
+*Demonstration MVP keyboard for WEST*
 
 * Keyboard Maintainer: [Jesse Farrell](https://github.com/jessefarrell)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: Raspberry Pi Pico
+* Hardware Availability: RPI store
 
 Make example for this keyboard (after setting up your build environment):
 
