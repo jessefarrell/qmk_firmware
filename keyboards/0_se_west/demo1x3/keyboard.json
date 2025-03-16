@@ -13,7 +13,7 @@
         "nkro": true
     },
     "matrix_pins": {
-        "direct":[["GP16", "GP15", "GP14"]]
+        "direct":[["GP17", "GP16", "GP15"]]
     },
     "processor": "RP2040",
     "url": "",
