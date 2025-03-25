@@ -13,7 +13,9 @@
         "nkro": true
     },
     "matrix_pins": {
-        "direct":[["GP17", "GP16", "GP15"]]
+        "direct":[  ["GP6", "GP3", "GP0"],
+                    ["GP7", "GP4", "GP1"],
+                    ["GP8", "GP5", "GP2"]]
     },
     "processor": "RP2040",
     "url": "",
@@ -27,7 +29,13 @@
             "layout": [
                 {"matrix": [0, 0], "x": 0, "y": 0},
                 {"matrix": [0, 1], "x": 1, "y": 0},
-                {"matrix": [0, 2], "x": 2, "y": 0}
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1},
+                {"matrix": [2, 0], "x": 0, "y": 2},
+                {"matrix": [2, 1], "x": 1, "y": 2},
+                {"matrix": [2, 2], "x": 2, "y": 2}
             ]
         }
     }
