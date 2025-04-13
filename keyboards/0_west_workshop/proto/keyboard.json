@@ -12,7 +12,11 @@
         "mousekey": true,
         "nkro": true
     },
-    
+    "encoder": {
+        "rotary": [
+            {"pin_a": "GP27", "pin_b": "GP28"}
+        ]
+    },
     "matrix_pins": {
         "direct":[  ["GP26", "GP3", "GP0"],
                     ["GP7", "GP4", "GP1"],
