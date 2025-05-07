@@ -5,12 +5,19 @@
     "bootloader": "rp2040",
     "diode_direction": "ROW2COL",
     "features": {
+        "backlight": true,
         "bootmagic": true,
         "command": false,
         "console": false,
         "extrakey": true,
         "mousekey": true,
         "nkro": true
+    },
+    "backlight": {
+        "breathing": true,
+        "breathing_period": 5,
+        "levels": 15,
+        "pin": "GP6"
     },
     "matrix_pins": {
         "cols": ["GP0", "GP1", "GP2"],
