@@ -14,6 +14,5 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #pragma once
-#define BACKLIGHT_ON_STATE 0    // 0 = backlight on
 #define BACKLIGHT_PWM_DRIVER PWMD3
 #define BACKLIGHT_PWM_CHANNEL RP2040_PWM_CHANNEL_A
