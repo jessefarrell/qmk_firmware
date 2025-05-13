@@ -3,7 +3,6 @@
     "keyboard_name": "0_west_workshop/proto",
     "maintainer": "jessefarrell",
     "bootloader": "rp2040",
-    "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
         "command": false,
@@ -39,13 +38,13 @@
     },
     "encoder": {
         "rotary": [
-            {"pin_a": "GP27", "pin_b": "GP28"}
+            {"pin_a": "GP27", "pin_b": "GP29"}
         ]
     },
     "matrix_pins": {
-        "direct":[  ["GP26", "GP3", "GP0"],
-                    ["GP7", "GP4", "GP1"],
-                    ["GP8", "GP5", "GP2"]]
+        "direct":[ ["GP25", "GP3", "GP9"],
+                    ["GP1", "GP4", "GP8"],
+                    ["GP2", "GP5", "GP6"]]
     },
     "processor": "RP2040",
     "url": "",
