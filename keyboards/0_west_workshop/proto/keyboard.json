@@ -35,7 +35,8 @@
 
             {"matrix": [4, 0], "x": 0, "y": 84, "flags": 4},
             {"matrix": [4, 1], "x": 112, "y": 84, "flags": 4},
-            {"matrix": [4, 2], "x": 224, "y": 84, "flags": 4}
+            {"matrix": [4, 2], "x": 224, "y": 84, "flags": 4},
+            {"matrix": [5, 0], "x": 0, "y": 105, "flags": 4}
         ]
     },
     "ws2812": {
@@ -52,6 +53,7 @@
                     ["GP0", "GP3", "GP9"],
                     ["GP1", "GP4", "GP8"],
                     ["GP2", "GP5", "GP6"],
+                    [null, null, null],
                     [null, null, null]]
     },
     "processor": "RP2040",
