@@ -11,33 +11,21 @@
         "encoder": true,
         "oled": true,
         "mousekey": true,
-        "rgb_matrix": true,
+        "rgblight": true,
         "nkro": true
     },
-    "rgb_matrix":{
+    "rgblight":{
+        "led_count": 13,
         "animations":{
-            "breathing": true,
-            "cylon": true
+            "breathing": true
         },
         "driver":"ws2812",
-        "layout": [
-            {"matrix": [1, 0], "x": 0, "y": 21, "flags": 4},
-            {"matrix": [1, 1], "x": 112, "y": 21, "flags": 4},
-            {"matrix": [1, 2], "x": 224, "y": 21, "flags": 4},
-
-            {"matrix": [2, 0], "x": 0, "y": 42, "flags": 4},
-            {"matrix": [2, 1], "x": 112, "y": 42, "flags": 4},
-            {"matrix": [2, 2], "x": 224, "y": 42, "flags": 4},
-
-            {"matrix": [3, 0], "x": 0, "y": 63, "flags": 4},
-            {"matrix": [3, 1], "x": 112, "y": 63, "flags": 4},
-            {"matrix": [3, 2], "x": 224, "y": 63, "flags":4},
-
-            {"matrix": [4, 0], "x": 0, "y": 84, "flags": 4},
-            {"matrix": [4, 1], "x": 112, "y": 84, "flags": 4},
-            {"matrix": [4, 2], "x": 224, "y": 84, "flags": 4},
-            {"matrix": [5, 0], "x": 0, "y": 105, "flags": 4}
-        ]
+        "default":{
+            "animation": "breathing",
+            "val": 255,
+            "sat": 255,
+            "hue": 64
+        }
     },
     "ws2812": {
         "pin": "GP10",
